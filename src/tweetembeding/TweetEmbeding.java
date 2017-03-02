@@ -109,7 +109,7 @@ public class TweetEmbeding {
                      fw.write(" "+termID_term.get(NNS[j]));
                      System.err.print(" "+termID_term.get(NNS[j]));
                     }
-                fw.write("  ");
+                fw.write("  "); 
                 }
                 fw.write("\n");
                 System.err.print("\n");
