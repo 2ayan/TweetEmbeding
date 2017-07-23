@@ -16,9 +16,14 @@ public class WordVec {
     WordVec(String line) {
         String[] wordvec = line.split("\\s+");
         word = wordvec[0];
+        
         vec = new float[wordvec.length-1];
+        //System.out.println(wordvec.length+" "+vec.length);
         for (int i=0; i < vec.length; i++) {
             vec[i] = Float.parseFloat(wordvec[i+1]);
+           // System.out.println(i+" "+vec[i]);
         }
     }
 }
+
+

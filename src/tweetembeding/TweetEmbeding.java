@@ -68,6 +68,7 @@ public class TweetEmbeding {
         String line;
         
         String []ids;
+      //  line = br.readLine(); // skip first line
         while ((line = br.readLine()) != null) {
            ids=line.replace("\n", "").split("\\s+");
            NN_termIds=new Integer[ids.length];
